@@ -13,4 +13,17 @@ public class Pilotos {
     String nombre;
     String ape;
     int edad;
+
+    public Pilotos(String nombre, String ape, int edad) {
+        this.nombre = nombre;
+        this.ape = ape;
+        this.edad = edad;
+    }
+
+    public Pilotos() {
+    }
+    
+    
+    
+    
 }
