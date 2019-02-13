@@ -15,7 +15,8 @@ public class Tarea4LidiaCintadoF {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+        Pilotos piloto1 = new Pilotos("Francisco", "Marin", 30);
+        
+        System.out.println(piloto1);
+    }    
 }
